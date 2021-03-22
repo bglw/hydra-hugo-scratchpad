@@ -1,0 +1,36 @@
+_array_structures:
+  content_blocks:
+    style: modal
+    values:
+      - label: Hero
+        image: /static/dashboard.png
+        value:
+          _block_type: content/hero
+          title:
+          subtitle:
+          cta_link:
+          cta_text:
+          image:
+          image_alt:
+      - label: Screenshot
+        image: /static/dashboard.png
+        value:
+          _block_type: content/screenshot
+          content_markdown:
+          image:
+          image_alt:
+      - label: Quote
+        image: /static/dashboard.png
+        value:
+          _block_type: content/quote
+          image:
+          image_alt:
+          content_markdown:
+          author:
+      - label: CTA
+        image: /static/dashboard.png
+        value:
+          _block_type: content/cta
+          heading_markdown:
+          cta_link:
+          cta_text:

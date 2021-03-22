@@ -1,0 +1,13 @@
+<div class="content">
+    <section class="testimonial">
+        <div class="container flex">
+            <div class="testimonial-block">
+                <div class="square-image"><img src="{{ .image }}" alt="{{ .image_alt }}"></div>
+                <blockquote>
+                    <p>{{ .content_markdown | markdownify }}</p>
+                    <p class="author">{{ .author }}</p>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+</div>

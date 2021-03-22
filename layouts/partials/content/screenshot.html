@@ -1,0 +1,12 @@
+<div class="content">
+    <section>
+        <div class="container flex">
+            <div class="text">
+                {{ .content_markdown | markdownify }}
+            </div>
+            <div class="image">
+                <img src="{{ .image }}" alt="{{ .image_alt }}" class="screenshot" />
+            </div>
+        </div>
+    </section>
+</div>

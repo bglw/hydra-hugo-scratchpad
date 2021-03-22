@@ -1,0 +1,10 @@
+<section class="hero">
+    <div class="text-container">
+        <h1 class="">{{ .title }}</h1>
+        <p class="subtext">{{ .subtitle }}</p>
+        <div class="cta button alt"><a href={{ .cta_link | relURL }}>{{ .cta_text }}</a></div>
+        <div>
+            <img src="{{ .image }}" alt="{{ .image_alt }}" class="screenshot" />
+        </div>
+    </div>
+</section>

@@ -1,0 +1,7 @@
+{{ define "main" }}
+<main>
+{{ range .Params.content_blocks }}
+    {{ partial ._block_type . }}
+{{end}}
+</main>
+{{end}}
