@@ -3,7 +3,7 @@ _array_structures:
     style: modal
     values:
       - label: Hero
-        image: /static/dashboard.png
+        image: /static/image/dashboard.png
         value:
           _block_type: content/hero
           title:
@@ -13,14 +13,14 @@ _array_structures:
           image:
           image_alt:
       - label: Screenshot
-        image: /static/dashboard.png
+        image: /static/image/dashboard.png
         value:
           _block_type: content/screenshot
           content_markdown:
           image:
           image_alt:
       - label: Quote
-        image: /static/dashboard.png
+        image: /static/image/dashboard.png
         value:
           _block_type: content/quote
           image:
@@ -28,7 +28,7 @@ _array_structures:
           content_markdown:
           author:
       - label: CTA
-        image: /static/dashboard.png
+        image: /static/image/dashboard.png
         value:
           _block_type: content/cta
           heading_markdown:
