@@ -4,6 +4,9 @@ _array_structures:
     values:
       - label: Hero
         icon: vertical_align_top
+        tags:
+          - Image
+          - Heading
         value:
           _block_type: content/hero
           title:
@@ -14,6 +17,9 @@ _array_structures:
           image_alt:
       - label: Screenshot
         icon: vertical_split
+        tags:
+          - Image
+          - Markdown
         value:
           _block_type: content/screenshot
           content_markdown:
@@ -21,6 +27,8 @@ _array_structures:
           image_alt:
       - label: Quote
         icon: format_quote
+        tags:
+          - Markdown
         value:
           _block_type: content/quote
           image:
@@ -29,6 +37,8 @@ _array_structures:
           author:
       - label: CTA
         icon: smart_button
+        tags:
+          - Info
         value:
           _block_type: content/cta
           heading_markdown:
