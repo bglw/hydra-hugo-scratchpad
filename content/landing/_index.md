@@ -10,14 +10,6 @@ content_blocks:
     cta_text: Get Started Free
     image: /image/dashboard.png
     image_alt: Dashboard image
-  - _block_type: content/quote
-    image: /static/uploads/cc-logo-1000.png
-    image_alt: CloudCannon
-    content_markdown: >-
-      Maecenas sed diam eget risus varius blandit sit amet non magna. Donec
-      ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit.
-    author: CloudCannon
   - _block_type: content/screenshot
     content_markdown: >-
       ## How can we **double** our sales revenue?
