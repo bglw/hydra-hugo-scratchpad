@@ -8,7 +8,7 @@ content_blocks:
     subtitle: Track and optimize your sales team in real time.
     cta_link: /sign-up/
     cta_text: Get Started Free
-    image: /image/dashboard.png
+    image: /static/image/dashboard.png
     image_alt: Dashboard image
   - _block_type: content/screenshot
     content_markdown: >-
@@ -18,7 +18,7 @@ content_blocks:
       Hydra learns your business. By analyzing your sales data, Hydra optimizes
       your sales process and show you where you should be spending your
       resources.
-    image: /image/dashboard.png
+    image: /static/image/dashboard.png
     image_alt: Dashboard image
   - _block_type: content/quote
     image: 'https://source.unsplash.com/6anudmpILw4/600x400'
