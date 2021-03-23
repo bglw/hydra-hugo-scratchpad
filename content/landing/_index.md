@@ -10,6 +10,11 @@ content_blocks:
     cta_text: Get Started Free
     image: /static/image/dashboard.png
     image_alt: Dashboard image
+  - _block_type: content/quote
+    image: /static/uploads/cc-logo-1000.png
+    image_alt: CloudCannon
+    content_markdown: Lorem Ipsum.
+    author: CloudCannon
   - _block_type: content/screenshot
     content_markdown: >-
       ## How can we **double** our sales revenue?
