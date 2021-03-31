@@ -5,7 +5,7 @@
                 {{ .content_markdown | markdownify }}
             </div>
             <div class="image">
-                <img src="{{ replace .image "static/" "" 1 }}" alt="{{ .image_alt }}" class="screenshot" />
+                <img src="{{ .image }}" alt="{{ .image_alt }}" class="screenshot" />
             </div>
         </div>
     </section>
